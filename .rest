@@ -1,7 +1,17 @@
-GET http://localhost:8080/api/users
+### POST http://localhost:8080/api/sessions/login Content-Type: application/json
+
+{
+"email": "m@gmail.com", "password": "123456"
+}
+
+### POST http://localhost:8080/api/sessions/register Content-Type: application/json
+
+{
+"first_name": "matias", "last_name": "matias", "email": "m@gmail.com", "password": "123456"
+} ###___________________________________________________ GET http://localhost:8080/api/users
 
 ### POST http://localhost:8080/api/users Content-Type: application/json
 
 {
-"first_name": "federico", "last_name": "el mejor", "email": "f@gmail..com"
+"first_name": "matias", "last_name": "el picante", "email": "m@gmail..com"
 }
