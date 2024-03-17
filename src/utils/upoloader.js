@@ -19,7 +19,3 @@ const uploader = multer({
         next()
     }
 })
-
-module.exports = {
-    uploader
-}
